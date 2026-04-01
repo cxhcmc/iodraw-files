@@ -45,6 +45,63 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-0" value="提交请假申请" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="288" y="490" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-1" value="审批流程" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="239" y="589" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-2" value="人力资源备案" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="181" y="776" width="157" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-3" value="通知申请人修改" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="388" y="776" width="174" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-4" value="考勤扣除/状态变更" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="875" width="198" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-5" value="流程结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="197" y="974" width="125" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.28;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-0" target="ItU9wIsgiBpeYxE0JFDQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="296" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-7" value="审批通过" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-1" target="ItU9wIsgiBpeYxE0JFDQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-8" value="驳回" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.93;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-1" target="ItU9wIsgiBpeYxE0JFDQ-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="403" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.54;exitY=0;entryX=0.9;entryY=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-3" target="ItU9wIsgiBpeYxE0JFDQ-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="740" />
+              <mxPoint x="494" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-2" target="ItU9wIsgiBpeYxE0JFDQ-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItU9wIsgiBpeYxE0JFDQ-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ItU9wIsgiBpeYxE0JFDQ-4" target="ItU9wIsgiBpeYxE0JFDQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
